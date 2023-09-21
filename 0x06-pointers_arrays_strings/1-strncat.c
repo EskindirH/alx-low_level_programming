@@ -9,12 +9,10 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int countSrc, countDest;
+	int countSrc = 0, countDest = 0;
 
-	countSrc = 0;
-	countDest = 0;
 	while (*(dest + countDest) != '\0')
-		destCount++;
+		countDest++;
 
 	while (countSrc < n)
 	{
