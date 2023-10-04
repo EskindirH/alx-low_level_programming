@@ -2,7 +2,7 @@
 /**
  * main - prints the number of arguments passed into it.
  * @argc: argument counter
- * @arg: agrgument vector
+ * @argv: agrgument vector
  *
  * Return: 0
  */
