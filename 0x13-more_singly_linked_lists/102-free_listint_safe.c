@@ -2,7 +2,7 @@
 
 /**
  * free_listp2 - frees a linked list
- * @head: head of a list.
+ * @head: head
  *
  * Return: no return.
  */
@@ -25,7 +25,7 @@ void free_listp2(listp_t **head)
 
 /**
  * free_listint_safe - frees a linked list.
- * @h: head of a list.
+ * @h: head
  *
  * Return: size of the list that was freed.
  */
@@ -43,7 +43,7 @@ size_t free_listint_safe(listint_t **h)
 		if (new == NULL)
 			exit(98);
 
-		new->n = (void *)*h;
+		new->p = (void *)*h;
 		new->next = hptr;
 		hptr = new;
 
